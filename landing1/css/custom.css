@@ -1,0 +1,52 @@
+.wrapper {
+    padding-top: 100px;
+    margin-top: 20px;
+}
+
+.profile-title,
+.text-left {
+    transform: translate(30%, 560%);
+}
+
+.card,
+.card-coin,
+.card-plain {
+    margin-top: 100px;
+    border: 1px solid #e14eca;
+}
+
+.img-center,
+.img-fluid,
+.rounded-circle {
+    z-index: 50;
+}
+
+body {
+    background-color: rgb(18, 13, 82);
+}
+
+.nav-item,
+.nav-link,
+.active {
+    background: none;
+    background-color: transparent;
+}
+
+.profile-description {
+    transform: translateX(0%);
+}
+
+.tim-icons {
+    color: #ff8d72;
+}
+
+.icon-bulb-63,
+.fab,
+.fa-twitter {
+    color: #2bffc6;
+    ;
+}
+
+.icon-book-bookmark {
+    color: #e14eca;
+}

@@ -1,0 +1,19 @@
+body {
+    background-color: lightgray;
+}
+
+.text-center h2 {
+    color: #1045a4;
+}
+
+.text-center ::after {
+    color: #1045a4;
+}
+
+.fa {
+    color: #1045a4;
+}
+
+.section-container-spacer h1 {
+    color: #1045a4;
+}

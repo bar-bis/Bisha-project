@@ -1,0 +1,75 @@
+//Ogólne style 
+.site-footer {
+    margin-top: 0;
+    a {
+        color: @text-light;
+        &:hover {
+            color: @hover-color;
+        }
+    }
+    padding: 70px 0 0;
+    .colors(@footer-main;@footer-text-color);
+    ul {
+        .list-style-none;
+        color: @text-light;
+    }
+    section {
+        margin-bottom: 30px;
+    }
+    .footer-widgets {
+        padding: 0 15px;
+    }
+    // Lista najnowszych wpisów
+    .widget_recent_entries {
+        ul {
+            padding-top: 0;
+            span {
+                .block;
+                padding-top: 3px;
+                opacity: 0.5;
+            }
+            li {
+                margin: 0;
+                padding: 8px 0;
+                &:first-child {
+                    padding-top: 0;
+                }
+            }
+        }
+    }
+}
+
+.footer-title {
+    color: @text-light;
+    margin-top: 0;
+    line-height: 1.1;
+}
+
+.textwidget {
+    padding: 0;
+}
+
+.footer-contact-item {
+    clear: both;
+    margin-bottom: 18px;
+    h4 {
+        font-size: 18px;
+        .inline-block;
+        color: @text-light;
+        .padding-margin(0 0 16px; 0 0 0 20px);
+    }
+}
+.footer-contact-item-icon {
+    float: left;
+    .basic-text(30px;30px);
+        .far {
+        font-family: FontAwesome !important;
+        font-weight: 900;
+    }
+}
+
+//copyright
+.footer-bottom-row {
+    background-color: @footer-secondary;
+    padding: 30px 0;
+}

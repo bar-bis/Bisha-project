@@ -1,0 +1,28 @@
+//ogólne style nagłówka
+.header {
+    .relative;
+    right: 0;
+    overflow: hidden;
+    .image {
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        position: relative;
+        justify-content: center;
+        width: 300px;
+        height: 100%;
+        @media @medium {
+            height: 100%;
+            width: 600px;
+        }
+        @media @large {
+            height: 600px;
+            width: 1000px;
+        }
+    }
+}
+
+.header-content {
+    .center-text;
+}
+
