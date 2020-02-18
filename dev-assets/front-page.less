@@ -1,3 +1,5 @@
+
+
 // zobacz więcej
 
 .main {
@@ -7,3 +9,74 @@
     position: relative;
     padding-bottom: 30px;
 }
+
+
+@font-face {
+	font-family: "ubuntu";
+	font-style: italic;
+	font-weight: 300;
+	src: local("Lato Light Italic"), local("Lato-LightItalic"),
+		url(https://fonts.gstatic.com/s/ubuntucondensed/v8/u-4k0rCzjgs5J7oXnJcM_0kACGMtT-Dfqw.woff2)
+			format("woff2");
+}
+
+
+//     background: url(https://images.unsplash.com/photo-1452697620382-f6543ead73b5) left center / 120% no-repeat;
+.bg{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.txt {
+    padding-top: 15vh;
+    font-size: 14rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    color: @text-lightest;
+    // text-shadow: 14px 14px @footer-secondary;
+    // filter: drop-shadow(40px 10px 6px @text-lightest);
+}
+
+//Social
+.fab {
+    color: @footer-secondary;
+    font-size:3rem;
+    margin-bottom: 3vh;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 300ms ease-in-out;
+    &:hover {
+        transform: scale(1.1);
+        background-color: @footer-secondary;
+        color: @text-lightest;
+    }
+}
+
+//Nav
+.bg {
+    a {
+        display: inline-block;
+        color: @text-lightest;
+        margin-right: 1vw;
+        &:hover {
+            transform: scale(1.2);
+        }
+        .fas {
+            text-align: center;
+            color: @text-lightest;
+            font-size:3rem;
+            margin-bottom: 3vh;
+            padding: 10px;
+            border-radius: 50%;
+            transition: 300ms ease-in-out;
+            &:hover {
+                transform: scale(1.1);
+                background-color: @text-lightest;
+                color: @footer-secondary;
+            }
+        }
+    }
+}
+
