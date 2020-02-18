@@ -3,7 +3,7 @@ body {
     font-family: 'Exo', sans-serif;
     justify-content: center;
     align-items: center;
-    overflow: auto;
+    overflow: hidden;
     font-weight: 400;
     background-color: @footer-secondary;
     height: 100%;
@@ -106,6 +106,12 @@ a {
     &:hover {
         .colors(@background-white,@text-dark);
         .shadow-hover;
+        opacity: 0.9;
+        .far {
+              transform: scale(1.2) translate(200%, -200%);
+              opacity: 0;
+              color: @text-lightest;
+        }
     }
     &:focus {
         outline: none;

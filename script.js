@@ -11,14 +11,6 @@ function hideModal() {
     framework.classList.add('hide');
 }
 
-$(window).on("load", function() {
-    $(".loader-wrapper").fadeOut("slow");
-});
-
-function jello() {
-    h2.onmouseover.classList.add('animated', 'jello');
-}
-
 
 
 // MDB Lightbox Init

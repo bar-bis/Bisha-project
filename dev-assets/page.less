@@ -181,35 +181,29 @@
     }
 }
 
-//contact & more
-
-a.snapchat {
-    position: relative;
-    margin-left: 30px;
-    margin-top: 30px;
-  }
-  
-  a.snapchat img {
-    position: absolute;
-    opacity: 0;
-    width: 100px;
-    height: 100px;
-    left: 0;
-    top: -20px;
-    transition: opacity .5s, top .5s;
-  }
-  
-  a.snapchat:hover img {
-    opacity: 1;
-    top: 20px;
-  }
-
 
   //contact
 
-  .send-image {
-      height: 40px;
-      width: 40px;
+  .main {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 30px;
+    margin-top: 25vh;
+}
+
+  .far {
+      color: @footer-secondary;
+      transition: 1s ease-in-out;
+      &:hover {
+        transform: scale(1.2) translate(200%, -200%);
+        opacity: 0;
+        color: @text-lightest;
+      }
+  }
+
+  .btn-contact {
+      margin-top: 4vh;
   }
 
 
