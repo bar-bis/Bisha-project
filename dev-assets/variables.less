@@ -21,13 +21,17 @@
 @accent-two: rgb(243, 207, 24);
 @accent-three: rgb(153, 245, 78);
 @accent-four:rgb(236, 196, 14);
+@gradient-white: linear-gradient(@background-white, @background-light-grey, @text-light, @footer-text-color);
 
 //Tekst - właściwości
 @base-text-size: 14px;
 @base-line-height: 24px;
 
 // Zapytania o media
-@small: ~'only screen and (min-width: 768px)';
-@medium: ~'only screen and (min-width: 992px)';
+@small: ~'only screen and (min-width: 360px)';
+@landscape: ~'only screen and (min-width: 500px)';
+@medium: ~'only screen and (min-width: 768px)';
+@medium-landscape: ~'only screen and (min-width: 812px)';
+@landscape-ipad: ~'only screen and (min-width: 1000px)';
 @big: ~'only screen and (min-width: 1200px)';
 @large: ~'only screen and (min-width: 1800px)';

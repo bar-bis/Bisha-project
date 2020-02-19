@@ -1,0 +1,45 @@
+
+  //contact
+
+  .main {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 3vh;
+    margin-top: 10vh;
+    @media @medium {
+        margin-top: 5vh;
+    }
+    .p-color {
+        margin-top: 15vh;
+        @media @landscape {
+            margin-top: 40vh;
+        }
+        @media @medium {
+            margin-top: 25vh;
+        }
+        @media @medium-landscape {
+            margin-top: 40vh;
+        }
+        @media @landscape-ipad {
+            margin-top: 20vh;
+        }
+    }
+}
+
+  .far {
+      color: @footer-secondary;
+      transition: 1s ease-in-out;
+      &:hover {
+        transform: scale(1.2) translate(200%, -200%);
+        opacity: 0;
+        color: @text-lightest;
+      }
+  }
+
+  .btn-contact {
+      margin-top: 4vh;
+  }
+
+
+  
